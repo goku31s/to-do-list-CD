@@ -21,7 +21,7 @@ spec:
       containers:
         - name: webapp
           # IMPORTANT: Replace this with the path to YOUR image in Artifact Registry
-          image: goku431/3-tier-todo-app:e846f4c27409163fc586e5ffaefc7407367ea76c
+          image: goku431/3-tier-todo-app:740f343ad94d80c177d7bdf89a5ff08baa0e8f0d
           ports:
             - containerPort: 8080
           env:
